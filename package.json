@@ -1,0 +1,23 @@
+{
+  "name": "vue-sample-pagination",
+  "version": "0.0.1",
+  "description": "a sample pagination plugin for vue.",
+  "main": "Pagination.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sky-admin@github.com/sky-admin/vue-pagination.git"
+  },
+  "keywords": [
+    "pagination",
+    "vue-page"
+  ],
+  "author": "skyadmin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sky-admin/vue-pagination/issues"
+  },
+  "homepage": "https://github.com/sky-admin/vue-pagination#readme"
+}
