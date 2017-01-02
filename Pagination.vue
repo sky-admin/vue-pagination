@@ -23,7 +23,7 @@
 </template>
 
 <script>
-    import Page from '../../static/js/page';
+    import Page from './page';
     export default{
         data() {
             return {
