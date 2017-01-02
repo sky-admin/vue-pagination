@@ -1,6 +1,6 @@
 <template>
     <div id="pagination-container">
-        <div class="nuomipage-main">
+        <div class="page-main">
             <button v-if="getPageModel.hasPre" @click="changePage(getPageModel.currentPage-1)">
                 上一页
             </button>
@@ -66,7 +66,7 @@
 </script>
 
 <style lang="less" scoped>
-    .nuomipage-main {
+    .page-main {
         margin-right: 40px;
         text-align: right;
 
@@ -80,50 +80,50 @@
         }
     }
 
-    .nuomipage-main a,
-    .nuomipage-main input,
-    .nuomipage-main span {
+    .page-main a,
+    .page-main input,
+    .page-main span {
         height: 26px;
         line-height: 26px;
     }
 
-    .nuomipage-main button,
-    .nuomipage-main input,
-    .nuomipage-main a {
+    .page-main button,
+    .page-main input,
+    .page-main a {
         border: 1px solid #ccc;
         background-color: #fff;
     }
 
-    .nuomipage-main {
+    .page-main {
         clear: both;
         font-size: 0;
         color: #666;
     }
 
-    .nuomipage-main * {
+    .page-main * {
         display: inline-block;
         font-size: 12px;
         vertical-align: top;
     }
 
-    .nuomipage-main a {
+    .page-main a {
         text-decoration: none;
         color: #666;
     }
 
-    .nuomipage-main a,
-    .nuomipage-main span {
+    .page-main a,
+    .page-main span {
         margin: 0 3px 6px;
         padding: 0 10px;
     }
 
-    .nuomipage-main input {
+    .page-main input {
         width: 40px;
         margin: 0 5px;
         padding: 0 5px;
     }
 
-    .nuomipage-main button {
+    .page-main button {
         height: 28px;
         margin-left: 5px;
         padding: 0 10px;
@@ -131,63 +131,63 @@
         color: #666;
     }
 
-    .nuomipage-main span {
+    .page-main span {
         height: 28px;
         line-height: 28px;
         color: #999;
     }
 
-    .nuomipage-main .nuomipage-curr {
+    .page-main .page-curr {
         font-weight: 700;
         color: #666;
     }
 
-    .nuomipageskin-molv a,
-    .nuomipageskin-molv span {
+    .pageskin-molv a,
+    .pageskin-molv span {
         padding: 0 12px;
         border-radius: 2px;
     }
 
-    .nuomipageskin-molv a {
+    .pageskin-molv a {
         background-color: #f1eff0;
     }
 
-    .nuomipageskin-molv .nuomipage-curr {
+    .pageskin-molv .page-curr {
         color: #fff;
         background-color: #00aa91;
     }
 
-    .nuomipageskin-molv input {
+    .pageskin-molv input {
         height: 24px;
         line-height: 24px;
     }
 
-    .nuomipageskin-molv button {
+    .pageskin-molv button {
         height: 26px;
         line-height: 26px;
     }
 
-    .nuomipageskin-yahei {
+    .pageskin-yahei {
         color: #333;
     }
 
-    .nuomipageskin-yahei a,
-    .nuomipageskin-yahei span {
+    .pageskin-yahei a,
+    .pageskin-yahei span {
         padding: 0 13px;
         color: #333;
         border-radius: 2px;
     }
 
-    .nuomipageskin-yahei .nuomipage-curr {
+    .pageskin-yahei .page-curr {
         color: #fff;
         background-color: #333;
     }
 
-    .nuomipageskin-flow {
+    .pageskin-flow {
         text-align: center;
     }
 
-    .nuomipageskin-flow .page-nomore {
+    .pageskin-flow .page-nomore {
         color: #999;
     }
 </style>
