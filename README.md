@@ -4,7 +4,33 @@
 
 ## Usage
 
-npm i vue-sample-pagination -S
+### install
+`npm i vue-sample-pagination -S`
+
+### import
+```js
+import vPage from 'vue-sample-pagination'
+import 'vue-sample-pagination/dist/vue-pagination.min.css'
+```
+
+### use
+```vue
+// in template
+<v-page :current-page="currentPage" :total-page="totalPage" @change-page="changePage"></v-page>
+
+// in script
+    data () {
+      return {
+        currentPage: 0,
+        totalPage: 10
+      }
+    },
+    methods: {
+      changePage (newPage) {
+        this.currentPage = newPage
+      }
+    }
+```
 
 ## Build Setup
 
