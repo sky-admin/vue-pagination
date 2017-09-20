@@ -2,6 +2,10 @@
 
 > 一个简单的Vue分页组件
 
+## Usage
+
+npm i vue-sample-pagination -S
+
 ## Build Setup
 
 ``` bash

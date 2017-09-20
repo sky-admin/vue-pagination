@@ -4,6 +4,10 @@
   "description": "A Vue pagination component",
   "author": "sky-ADMIN <546485299@qq.com>",
   "main": "dist/vue-pagination.min.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "private": false,
   "scripts": {
     "dev": "node build/dev-server.js",
